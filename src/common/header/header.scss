@@ -1,0 +1,25 @@
+.header{
+    background:#FFF;
+    display:flex;
+    justify-content: space-between;
+    height: 100px;
+    .logo-img{
+        img{
+        width: 100%;
+        height: 100px;
+        }
+    }
+    ul{
+        width: 50%;
+        display:flex;
+        list-style: none;
+        justify-content: flex-end;
+        li{
+            margin: 16px;
+            a{
+                color:#777;
+                text-decoration: none;
+            }
+        }
+    }
+}
