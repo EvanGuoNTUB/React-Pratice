@@ -1,4 +1,5 @@
 import { Fragment, useState } from 'react';
+import { useDispatch } from 'react-redux';
 import { useNavigate } from "react-router-dom";
 
 import { Footer } from "../../common/footer/footer";
@@ -11,12 +12,21 @@ export function Login(){
   const navigate = useNavigate();
   const [account,setAccount] = useState("");
   const [password,setPassword] = useState("");
+  
+  const dispatch = useDispatch();
 
-  const login=()=>{
-    navigate('/ibank',{state:{account:account,password:password}});
+  const login = () => {
+    if(account){
+      dispatch({
+        account: account, 
+        password: password,
+        type: "LOGIN"
+      })
+      navigate('/ibank');
+    } else{
+      alert("請輸入帳號密碼！");
+    }
   }
-
-
 
     return (
         <Fragment>

@@ -69,7 +69,7 @@ const baseURL = "https://jsonplaceholder.typicode.com/posts";
 
 export function Ibank() {
     const [posts, setPosts] = useState<any>([{}]);
-
+    
     useEffect(() => {
         axios.get(baseURL).then((response) => {
             setPosts(response.data);
@@ -78,7 +78,7 @@ export function Ibank() {
     
     return (
         <Fragment>
-        <Header  isLoggedIn={true}/>
+        <Header/>
             <div className="ibank">
                 <ul>
                     <li>

@@ -4,8 +4,6 @@ import { Header } from "../../common/header/header";
 import './download.scss';
 
 const handleClick = (event:any) => {
-  console.log(event);
-  
   if (event.target.parentElement.classList.contains('open')) {
     event.target.parentElement.classList.remove('open');
   } else {
