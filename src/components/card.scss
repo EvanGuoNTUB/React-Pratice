@@ -1,0 +1,21 @@
+.card{
+    display:block;
+    width: 300px;
+    background-color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 10px;
+    text-align: center;
+    button{
+        width: 250px;
+        display: block;
+        margin: 32px auto 16px;
+        padding: 16px;
+        border:none;
+        border-radius: 10px;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        color: #FFF;
+        background-color:#28701b;
+        cursor: pointer;
+    }
+}
