@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 import logoImg from '../../assets/images/logo.png';
 
-import './header.scss';
+import style from './style.module.scss';
 
 export function Header() {
 
@@ -21,7 +21,7 @@ export function Header() {
   }
 
     return (
-        <div className="header">
+        <div className={style.header}>
             <div className="logo-img">
                 <img src={logoImg} alt="" />
             </div>

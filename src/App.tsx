@@ -2,10 +2,10 @@ import { Fragment } from 'react';
 import { Provider } from 'react-redux';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import { Download } from "./pages/download/download";
-import { Home } from "./pages/home/home";
-import { Ibank } from './pages/ibank/ibank';
-import { Login } from "./pages/login/login";
+import { Download } from "./pages/download";
+import { Home } from "./pages/home";
+import { Ibank } from './pages/ibank';
+import { Login } from "./pages/login";
 import { store } from './store/store';
 
 function App() {

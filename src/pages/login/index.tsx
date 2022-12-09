@@ -2,10 +2,10 @@ import { Fragment, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from "react-router-dom";
 
-import { Footer } from "../../common/footer/footer";
-import { Header } from "../../common/header/header";
+import { Footer } from "../../common/footer";
+import { Header } from "../../common/header";
 
-import './login.scss';
+import style from './style.module.scss';
 
 export function Login(){
 
@@ -31,11 +31,11 @@ export function Login(){
     return (
         <Fragment>
         <Header/>
-            <div className="login">
-                <div className="login-container">
+            <div className={style.login}>
+                <div className={style.login_container}>
                     <input type="text" placeholder='帳號' onChange={(e)=>{ setAccount(e.target.value) }} value={account} />
                     <input type="text" placeholder='密碼' onChange={(e)=>{ setPassword(e.target.value) }} value={password} />
-                    <a onClick={()=>{login()}}>登入</a>
+                    <a onClick={login}>登入</a>
                 </div>
             </div>
         <Footer/>

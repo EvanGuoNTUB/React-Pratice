@@ -2,9 +2,9 @@
 
 import axios from 'axios';
 import { Fragment, useEffect, useState } from 'react';
-import { Footer } from '../../common/footer/footer';
-import { Header } from '../../common/header/header';
-import './ibank.scss';
+import { Footer } from '../../common/footer';
+import { Header } from '../../common/header';
+import style from './style.module.scss';
 
 const baseURL = "https://jsonplaceholder.typicode.com/posts";
    
@@ -79,7 +79,7 @@ export function Ibank() {
     return (
         <Fragment>
         <Header/>
-            <div className="ibank">
+            <div className={style.ibank}>
                 <ul>
                     <li>
                     台幣轉帳
