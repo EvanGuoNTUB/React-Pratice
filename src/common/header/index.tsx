@@ -22,7 +22,7 @@ export function Header() {
 
     return (
         <div className={style.header}>
-            <div className="logo-img">
+            <div className={style.logo_img}>
                 <img src={logoImg} alt="" />
             </div>
           <ul>
