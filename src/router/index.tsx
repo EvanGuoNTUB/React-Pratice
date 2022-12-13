@@ -4,7 +4,6 @@ import { Home } from '../pages/home';
 import { Ibank } from '../pages/ibank';
 import { Fnd } from '../pages/ibank/fnd';
 import { Query } from '../pages/ibank/query';
-import { Setting } from '../pages/ibank/setting';
 import { Twd } from '../pages/ibank/twd';
 import { Login } from '../pages/login';
 
@@ -36,10 +35,6 @@ const routes = [
       {
         path: 'query',
         element: <Query />,
-      },
-      {
-        path: 'setting',
-        element: <Setting />,
       }
     ],
   }

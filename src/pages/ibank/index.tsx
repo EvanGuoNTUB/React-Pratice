@@ -82,9 +82,6 @@ export function Ibank() {
                     <li>
                         <Link to="/ibank/query">餘額查詢</Link>
                     </li>
-                    <li>
-                        <Link to="/ibank/setting">個人設定</Link>
-                    </li>
                 </ul>
                 <div>
                     <Outlet/>
