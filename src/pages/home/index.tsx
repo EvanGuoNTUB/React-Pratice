@@ -1,9 +1,10 @@
+import { Footer } from "@/common/footer";
+import { Header } from "@/common/header";
+import { Button } from '@/components/button';
+import { Card } from '@/components/card';
+import { UploadFile } from '@/components/upload-file';
 import { Fragment } from 'react';
-import { Footer } from "../../common/footer";
-import { Header } from "../../common/header";
-import { Button } from '../../components/button';
-import { Card } from '../../components/card';
-import { UploadFile } from '../../components/upload-file';
+
 import style from './style.module.scss';
 
 export function Home() {

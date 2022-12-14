@@ -1,6 +1,6 @@
+import { Footer } from "@/common/footer";
+import { Header } from "@/common/header";
 import { Fragment } from 'react';
-import { Footer } from "../../common/footer";
-import { Header } from "../../common/header";
 import style from './style.module.scss';
 
 const handleClick = (event:any) => {

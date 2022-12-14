@@ -1,11 +1,10 @@
 
 
+import { Footer } from '@/common/footer';
+import { Header } from '@/common/header';
 import { Fragment } from 'react';
 import { Link, Outlet } from 'react-router-dom';
-import { Footer } from '../../common/footer';
-import { Header } from '../../common/header';
 import style from './style.module.scss';
-
    
 //==============================
 // 舊寫法 class component with constructor
