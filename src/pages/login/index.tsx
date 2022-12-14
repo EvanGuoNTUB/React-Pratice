@@ -1,5 +1,5 @@
-import { Footer } from "@/common/footer";
-import { Header } from "@/common/header";
+import { Footer } from "@src/common/footer";
+import { Header } from "@src/common/header";
 import { Fragment, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from "react-router-dom";

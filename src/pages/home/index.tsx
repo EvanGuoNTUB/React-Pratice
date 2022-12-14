@@ -1,8 +1,8 @@
-import { Footer } from "@/common/footer";
-import { Header } from "@/common/header";
-import { Button } from '@/components/button';
-import { Card } from '@/components/card';
-import { UploadFile } from '@/components/upload-file';
+import { Footer } from "@src/common/footer";
+import { Header } from "@src/common/header";
+import { Button } from '@src/components/button';
+import { Card } from '@src/components/card';
+import { UploadFile } from '@src/components/upload-file';
 import { Fragment } from 'react';
 
 import style from './style.module.scss';

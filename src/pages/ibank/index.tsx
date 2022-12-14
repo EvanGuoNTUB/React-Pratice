@@ -1,7 +1,7 @@
 
 
-import { Footer } from '@/common/footer';
-import { Header } from '@/common/header';
+import { Footer } from '@src/common/footer';
+import { Header } from '@src/common/header';
 import { Fragment } from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import style from './style.module.scss';

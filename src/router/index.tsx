@@ -1,10 +1,10 @@
-import { Download } from '@/pages/download';
-import { Home } from '@/pages/home';
-import { Ibank } from '@/pages/ibank';
-import { Fnd } from '@/pages/ibank/fnd';
-import { Query } from '@/pages/ibank/query';
-import { Twd } from '@/pages/ibank/twd';
-import { Login } from '@/pages/login';
+import { Download } from '@src/pages/download';
+import { Home } from '@src/pages/home';
+import { Ibank } from '@src/pages/ibank';
+import { Fnd } from '@src/pages/ibank/fnd';
+import { Query } from '@src/pages/ibank/query';
+import { Twd } from '@src/pages/ibank/twd';
+import { Login } from '@src/pages/login';
 import { useRoutes } from 'react-router-dom';
 
 const routes = [

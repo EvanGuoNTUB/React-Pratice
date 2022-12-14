@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 
-import logoImg from '@/assets/images/logo.png';
+import logoImg from '@src/assets/images/logo.png';
 
 import style from './style.module.scss';
 
